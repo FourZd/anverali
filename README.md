@@ -21,8 +21,8 @@ http://localhost:8000
 
 <h2>API Endpoints Documentation</h2>
 <p> /admin/ - Админка. Необходимо создать суперюзера. </p>
-<p> /customers/profile/<int:id>/ - Эндпоинт для просмотра профиля заказчика. </p>
-<p> /freelancers/profile/<int:id>/ - Эндпоинт для просмотра профиля фрилансера. </p>
+<p> /customers/profile/int:id/ - Эндпоинт для просмотра профиля заказчика. </p>
+<p> /freelancers/profile/int:id/ - Эндпоинт для просмотра профиля фрилансера. </p>
 
 
 ## Насчет более сложных реализаций
