@@ -19,10 +19,10 @@ docker-compose up --build
 ## 4. Приложение готово к тестированию. Адрес на 8000 порту.
 http://localhost:8000
 
-API Endpoints Documentation
-/admin/ - Админка. Необходимо создать суперюзера.
-/customers/profile/<int:id>/ - Эндпоинт для просмотра профиля заказчика.
-/freelancers/profile/<int:id>/ - Эндпоинт для просмотра профиля фрилансера.
+<h2>API Endpoints Documentation</h2>
+<p> /admin/ - Админка. Необходимо создать суперюзера. </p>
+<p> /customers/profile/<int:id>/ - Эндпоинт для просмотра профиля заказчика. </p>
+<p> /freelancers/profile/<int:id>/ - Эндпоинт для просмотра профиля фрилансера. </p>
 
 
 ## Насчет более сложных реализаций
