@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile of {{ freelancer.name }}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Freelancer Profile</h1>
+    <p>Name: {{ freelancer.name }}</p>
+    <p>Contact Info: {{ freelancer.contact_info }}</p>
+    <p>Experience: {{ freelancer.experience }}</p>
+</body>
+</html>

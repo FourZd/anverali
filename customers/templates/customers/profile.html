@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile of {{ customer.name }}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Customer Profile</h1>
+    <p>Name: {{ customer.name }}</p>
+    <p>Contact Info: {{ customer.contact_info }}</p>
+    <p>Experience: {{ customer.experience }}</p>
+</body>
+</html>
